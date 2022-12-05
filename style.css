@@ -1,0 +1,26 @@
+h1,p,h2 {
+    text-align: center;
+}
+body {
+    background-color: grey;
+    background-image: none;
+}
+/* Section1 */
+menu {
+    width: 300;
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flavor {
+    text-align: left;
+    width: 49%;
+}
+.price {
+    text-align: right;
+    width: 49%;
+}
+.item p {
+    display: inline-block;
+  }
