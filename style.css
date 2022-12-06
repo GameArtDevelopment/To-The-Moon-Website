@@ -4,23 +4,76 @@ h1,p,h2 {
 body {
     background-color: grey;
     background-image: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+h2 {
+    font-size: 30px;
+  }
+.established{
+    font-style: italic;
 }
 /* Section1 */
 menu {
-    width: 300;
-    background-color: darkgrey;
+    width: 80%;
+    background-color: rgb(221, 186, 155);
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
 }
-
-.flavor {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
+hr {
+    height: 2px;
+    background-color: black;
+    border-color: grey;
+  }
+h1,h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.flavor, .dessert{
     text-align: left;
-    width: 49%;
+    width: 75%;
 }
 .price {
     text-align: right;
-    width: 49%;
+    width: 24%;
 }
 .item p {
     display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .bottom-line {
+    margin-top: 25px;
+  }
+  /* FOOTER */
+  footer {
+    font-size: 14px;
+  }
+  .address {
+    margin-bottom: 5px;
+  }
+  a {
+    color: black;
+  }
+  a:visited {
+    color: grey;
+  }
+  a:hover {
+    color: blue;
+  }
+  a:active {
+    color: white;
   }
